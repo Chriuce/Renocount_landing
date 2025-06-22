@@ -26,6 +26,9 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
+            <a href="/about" className="text-gray-600 hover:text-gray-900 transition-colors">
+              About
+            </a>
             <a href="#how-it-works" className="text-gray-600 hover:text-gray-900 transition-colors">
               How it works
             </a>
@@ -84,6 +87,13 @@ export default function Header() {
             className="md:hidden"
           >
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 border-t border-gray-200">
+              <a
+                href="/about"
+                className="block px-3 py-2 text-base font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 rounded-md"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                About
+              </a>
               <a
                 href="#how-it-works"
                 className="block px-3 py-2 text-base font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 rounded-md"
