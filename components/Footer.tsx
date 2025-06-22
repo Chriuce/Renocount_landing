@@ -17,8 +17,11 @@ export default function Footer() {
             className="md:col-span-2"
           >
             <h3 className="text-2xl font-bold mb-4">Renocount</h3>
-            <p className="text-gray-400 mb-6 max-w-md">
+            <p className="text-gray-400 mb-4 max-w-md">
               Construction site management through WhatsApp. No apps, no training, just results.
+            </p>
+            <p className="text-gray-500 text-sm mb-6 max-w-md">
+              Renocount is a tool developed by Chris-Craft Oy for construction companies to manage site tasks via WhatsApp. Based in Helsinki, Finland.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">

@@ -97,6 +97,18 @@ export default function HeroSection() {
               <span>AI-powered assistance</span>
             </div>
           </motion.div>
+
+          {/* Company statement */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 1.0 }}
+            className="pt-8 border-t border-gray-200 mt-8"
+          >
+            <p className="text-gray-600 text-sm sm:text-base max-w-2xl mx-auto">
+              Renocount is a tool developed by Chris-Craft Oy for construction companies to manage site tasks via WhatsApp. Based in Helsinki, Finland.
+            </p>
+          </motion.div>
         </motion.div>
       </div>
 
