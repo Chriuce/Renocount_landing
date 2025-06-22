@@ -10,6 +10,11 @@ export const metadata: Metadata = {
   description: 'Renocount helps construction teams report tasks, hours, and photos directly through WhatsApp – no logins, no training.',
   keywords: 'construction management, WhatsApp, site management, construction app',
   authors: [{ name: 'Renocount' }],
+  icons: {
+    icon: '/icon.svg',
+    shortcut: '/icon.svg',
+    apple: '/icon.svg',
+  },
   openGraph: {
     title: 'Renocount - Construction Site Management via WhatsApp',
     description: 'Renocount helps construction teams report tasks, hours, and photos directly through WhatsApp – no logins, no training.',
