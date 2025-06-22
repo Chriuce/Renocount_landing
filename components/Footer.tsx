@@ -62,7 +62,7 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4">Company</h4>
             <ul className="space-y-3">
               <li><a href="/about" className="text-gray-400 hover:text-white transition-colors">About</a></li>
-              <li><a href="mailto:hello@renocount.com" className="text-gray-400 hover:text-white transition-colors">Support</a></li>
+              <li><a href="mailto:chris@chris-craft.net" className="text-gray-400 hover:text-white transition-colors">Support</a></li>
               <li><a href="tel:+358400185522" className="text-gray-400 hover:text-white transition-colors">Phone</a></li>
               <li><a href="#contact" className="text-gray-400 hover:text-white transition-colors">Contact</a></li>
             </ul>

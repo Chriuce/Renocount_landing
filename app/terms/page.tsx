@@ -161,7 +161,7 @@ export default function TermsOfService() {
                   If you have any questions about these Terms of Service, please contact us:
                 </p>
                 <div className="space-y-2 text-gray-700">
-                  <p><strong>Email:</strong> hello@renocount.com</p>
+                  <p><strong>Email:</strong> chris@chris-craft.net</p>
                   <p><strong>Company:</strong> Chris-Craft Oy</p>
                   <p><strong>Address:</strong> Albertinkatu 22-24 E 64, 00120 Helsinki</p>
                   <p><strong>VAT:</strong> 3137559-3</p>

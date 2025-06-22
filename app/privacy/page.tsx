@@ -161,7 +161,7 @@ export default function PrivacyPolicy() {
                   If you have any questions about this privacy policy or want to exercise your rights, please contact us:
                 </p>
                 <div className="space-y-2 text-gray-700">
-                  <p><strong>Email:</strong> hello@renocount.com</p>
+                  <p><strong>Email:</strong> chris@chris-craft.net</p>
                   <p><strong>Data Controller:</strong> Renocount</p>
                   <p><strong>Representative:</strong> Christian Ahlström</p>
                   <p><strong>Address:</strong> Albertinkatu 22-24 E 64, 00120 Helsinki</p>

@@ -50,7 +50,7 @@ export default function About() {
                     <div>
                       <p><strong>Address:</strong> Albertinkatu 22-24 E 64, 00120 Helsinki, Finland</p>
                       <p><strong>Phone:</strong> +358 40 018 5522</p>
-                      <p><strong>Email:</strong> hello@renocount.com</p>
+                      <p><strong>Email:</strong> chris@chris-craft.net</p>
                       <p><strong>Website:</strong> www.renocount.com</p>
                     </div>
                   </div>
@@ -124,7 +124,7 @@ export default function About() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-2">Business Inquiries</h3>
-                    <p>Email: <a href="mailto:hello@renocount.com" className="text-primary-600">hello@renocount.com</a></p>
+                    <p>Email: <a href="mailto:chris@chris-craft.net" className="text-primary-600">chris@chris-craft.net</a></p>
                     <p>Phone: <a href="tel:+358400185522" className="text-primary-600">+358 40 018 5522</a></p>
                   </div>
                   <div>

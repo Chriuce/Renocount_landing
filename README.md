@@ -106,4 +106,4 @@ This project is proprietary to Renocount.
 
 ## Support
 
-For questions or support, contact hello@renocount.com 
+For questions or support, contact chris@chris-craft.net 
