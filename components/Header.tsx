@@ -18,9 +18,9 @@ export default function Header() {
             className="flex items-center"
           >
             <div className="flex-shrink-0">
-              <h1 className="text-2xl font-bold text-gray-900">
+              <a href="/" className="text-2xl font-bold text-gray-900 hover:text-primary-600 transition-colors">
                 Renocount
-              </h1>
+              </a>
             </div>
           </motion.div>
 
