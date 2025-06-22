@@ -12,7 +12,7 @@ export default function HeroSection() {
         <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-primary-200 rounded-full opacity-20 blur-3xl"></div>
       </div>
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center pb-24">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -70,7 +70,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.8 }}
-            className="flex flex-wrap justify-center items-center gap-8 pt-8 text-gray-500"
+            className="flex flex-wrap justify-center items-center gap-4 sm:gap-8 pt-8 text-gray-500 text-sm sm:text-base"
           >
             <div className="flex items-center space-x-2">
               <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
@@ -105,7 +105,7 @@ export default function HeroSection() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 1.2 }}
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
+        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 hidden sm:block"
       >
         <div className="flex flex-col items-center space-y-2">
           <span className="text-sm text-gray-500">Scroll to learn more</span>
