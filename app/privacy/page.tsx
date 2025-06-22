@@ -139,7 +139,7 @@ export default function PrivacyPolicy() {
                   <p><strong>Email:</strong> hello@renocount.com</p>
                   <p><strong>Data Controller:</strong> Renocount</p>
                   <p><strong>Representative:</strong> Christian Ahlström</p>
-                  <p><strong>Address:</strong> [Your business address in Finland]</p>
+                  <p><strong>Address:</strong> Albertinkatu 22-24 E 64, 00120 Helsinki</p>
                 </div>
                 <p className="text-sm text-gray-600 mt-4">
                   <strong>Last updated:</strong> {new Date().toLocaleDateString('en-US', { 
