@@ -19,6 +19,10 @@ const faqs = [
   {
     question: 'How secure is the data?',
     answer: 'All data is encrypted and stored securely. We follow industry best practices for data protection and compliance. Your construction data stays private and secure.'
+  },
+  {
+    question: 'How does the AI assistant work?',
+    answer: 'Our AI assistant understands natural language, so you can communicate with it just like you would with a team member. It can process task assignments, understand progress updates, analyze photos, and organize information automatically - all through regular WhatsApp messages.'
   }
 ]
 

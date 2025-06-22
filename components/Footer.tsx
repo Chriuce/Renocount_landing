@@ -78,9 +78,12 @@ export default function Footer() {
           className="border-t border-gray-800 mt-12 pt-8"
         >
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400 text-sm">
-              © 2024 Renocount. All rights reserved.
-            </p>
+            <div className="text-sm text-gray-400">
+              <p className="font-bold">Chris-Craft Oy</p>
+              <p>Albertinkatu 22-24 E 64, 00120 Helsinki</p>
+              <p>VAT: 3137559-3</p>
+              <p className="mt-2">© 2024 Renocount. All rights reserved.</p>
+            </div>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Privacy Policy</a>
               <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Terms of Service</a>

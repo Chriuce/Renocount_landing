@@ -55,7 +55,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="font-semibold text-gray-900">Email us</p>
-                  <p className="text-gray-600">hello@renocount.com</p>
+                  <p className="text-gray-600">chris@chris-craft.net</p>
                 </div>
               </div>
               
@@ -67,7 +67,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="font-semibold text-gray-900">Call us</p>
-                  <p className="text-gray-600">+1 (555) 123-4567</p>
+                  <p className="text-gray-600">+358 40 018 5522</p>
                 </div>
               </div>
             </div>
