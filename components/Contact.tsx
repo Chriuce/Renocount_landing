@@ -80,13 +80,16 @@ export default function Contact() {
                 <div>
                   <p className="font-semibold text-gray-900">WhatsApp us</p>
                   <a 
-                    href="https://wa.me/358400185522?text=Hi%20Renocount%2C%20I%27m%20interested%20in%20learning%20more%20about%20your%20AI-powered%20WhatsApp%20construction%20management%20tool." 
+                    href="https://wa.me/358400185522?text=Hi%20Renocount%2C%20I%27m%20interested%20in%20learning%20more%20about%20your%20construction%20management%20service.%20I%20consent%20to%20receive%20follow-up%20messages%20about%20this%20inquiry." 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-green-600 hover:text-green-700"
                   >
                     Start WhatsApp Chat
                   </a>
+                  <p className="text-xs text-gray-500 mt-1">
+                    By clicking, you consent to receive messages from us on WhatsApp
+                  </p>
                 </div>
               </div>
             </div>

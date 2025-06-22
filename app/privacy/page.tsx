@@ -76,6 +76,20 @@ export default function PrivacyPolicy() {
               </section>
 
               <section>
+                <h2 className="text-2xl font-semibold text-gray-900 mb-4">3a. WhatsApp Communication Consent</h2>
+                <p className="text-gray-700 mb-4">
+                  When you initiate contact with us via WhatsApp:
+                </p>
+                <ul className="list-disc pl-6 space-y-2 text-gray-700">
+                  <li>You provide explicit consent to receive follow-up messages from us on WhatsApp</li>
+                  <li>We will only send messages related to your inquiry and our construction management services</li>
+                  <li>You can opt out of WhatsApp communications at any time by replying "STOP" or blocking our number</li>
+                  <li>We respect all opt-out requests immediately and will not send further messages</li>
+                  <li>Your WhatsApp messages with us are subject to WhatsApp's terms of service and privacy policy</li>
+                </ul>
+              </section>
+
+              <section>
                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">4. Data Storage and Retention</h2>
                 <p className="text-gray-700 mb-4">
                   Your data is stored securely using GDPR-compliant services including:
