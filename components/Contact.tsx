@@ -80,7 +80,7 @@ export default function Contact() {
                 <div>
                   <p className="font-semibold text-gray-900">WhatsApp us</p>
                   <a 
-                    href="https://wa.me/358400185522?text=Hi%20Renocount%2C%20I%27m%20interested%20in%20learning%20more%20about%20your%20construction%20management%20service.%20I%20consent%20to%20receive%20follow-up%20messages%20about%20this%20inquiry." 
+                    href="https://wa.me/358454900199?text=Hi%20Renocount%2C%20I%27m%20interested%20in%20learning%20more%20about%20your%20construction%20management%20service.%20I%20consent%20to%20receive%20follow-up%20messages%20about%20this%20inquiry." 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-green-600 hover:text-green-700"
@@ -185,12 +185,14 @@ export default function Contact() {
                   />
                 </div>
 
-                <button
-                  type="submit"
-                  className="w-full bg-primary-600 hover:bg-primary-700 text-white font-semibold py-4 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+                <a
+                  href="https://wa.me/358454900199?text=Hi%20Renocount%2C%20I%27m%20interested%20in%20requesting%20access%20to%20your%20construction%20management%20service.%20I%20consent%20to%20receive%20follow-up%20messages%20about%20this%20inquiry."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full bg-primary-600 hover:bg-primary-700 text-white font-semibold py-4 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 inline-flex items-center justify-center"
                 >
                   Request Access
-                </button>
+                </a>
               </form>
             </div>
           </motion.div>

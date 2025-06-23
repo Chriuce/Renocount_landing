@@ -51,7 +51,9 @@ export default function Header() {
             className="hidden md:block"
           >
             <a
-              href="#contact"
+              href="https://wa.me/358454900199?text=Hi%20Renocount%2C%20I%27m%20interested%20in%20requesting%20access%20to%20your%20construction%20management%20service.%20I%20consent%20to%20receive%20follow-up%20messages%20about%20this%20inquiry."
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-lg text-white bg-primary-600 hover:bg-primary-700 transition-colors"
             >
               Request Access
@@ -123,7 +125,9 @@ export default function Header() {
                 Contact
               </a>
               <a
-                href="#contact"
+                href="https://wa.me/358454900199?text=Hi%20Renocount%2C%20I%27m%20interested%20in%20requesting%20access%20to%20your%20construction%20management%20service.%20I%20consent%20to%20receive%20follow-up%20messages%20about%20this%20inquiry."
+                target="_blank"
+                rel="noopener noreferrer"
                 className="block px-3 py-2 text-base font-medium text-primary-600 hover:text-primary-700 hover:bg-primary-50 rounded-md"
                 onClick={() => setIsMenuOpen(false)}
               >
