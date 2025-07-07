@@ -43,13 +43,21 @@ export default function Header() {
             </a>
           </nav>
 
-          {/* CTA Button */}
+          {/* CTA Buttons */}
           <motion.div
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="hidden md:block"
+            className="hidden md:flex space-x-3"
           >
+            <a
+              href="https://calendly.com/chris-chris-craft/30min"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-4 py-2 border border-primary-600 text-sm font-medium rounded-lg text-primary-600 bg-white hover:bg-primary-50 transition-colors"
+            >
+              Book Demo
+            </a>
             <a
               href="https://wa.me/358454900199?text=Hi%20Renocount%2C%20I%27m%20interested%20in%20requesting%20access%20to%20your%20construction%20management%20service.%20I%20consent%20to%20receive%20follow-up%20messages%20about%20this%20inquiry."
               target="_blank"
@@ -123,6 +131,15 @@ export default function Header() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Contact
+              </a>
+              <a
+                href="https://calendly.com/chris-chris-craft/30min"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block px-3 py-2 text-base font-medium text-primary-600 hover:text-primary-700 hover:bg-primary-50 rounded-md"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Book Demo
               </a>
               <a
                 href="https://wa.me/358454900199?text=Hi%20Renocount%2C%20I%27m%20interested%20in%20requesting%20access%20to%20your%20construction%20management%20service.%20I%20consent%20to%20receive%20follow-up%20messages%20about%20this%20inquiry."
