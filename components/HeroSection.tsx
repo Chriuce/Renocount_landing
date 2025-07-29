@@ -49,12 +49,12 @@ export default function HeroSection() {
             className="flex flex-col sm:flex-row gap-4 justify-center items-center"
           >
             <a
-              href="https://wa.me/358454900199?text=Hi%20Renocount%2C%20I%27m%20interested%20in%20requesting%20access%20to%20your%20construction%20management%20service.%20I%20consent%20to%20receive%20follow-up%20messages%20about%20this%20inquiry."
+              href="https://app.renocount.com"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-8 py-4 text-lg font-semibold text-white bg-primary-600 hover:bg-primary-700 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
             >
-              Request Access
+              Login
               <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
